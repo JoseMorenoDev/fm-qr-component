@@ -9,8 +9,9 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    width: 1440px;
+    /* width: 1440px; */
     background-color: var(--grayish-blue);
+    
 }
 
 img {
@@ -36,6 +37,15 @@ h2{
     justify-content: center;
     flex-direction: column;
     border-radius: 2%;
+    margin:0 auto;
     
     
+    
+}
+
+.footer {
+    margin-top: 25%;
+    display:flex;
+    flex: 1;
+    align-items: flex-end;
 }
